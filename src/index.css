@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+:root {
+  --section-bg: #2f2a33;
+  --lilac: #b082de;
+  --bg: #3e3943;
+  --text: white;
+  --textcolor: #c4bdce;
+  --titlefont: "Playfair Display", serif;
+  --textfont: "Inter", sans-serif;
+  --hoverfont: "Caveat", cursive;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body.light {
+  --section-bg: #efebf3;
+  --lilac: #b082de;
+  --bg: white;
+  --text: black;
+  --textcolor: #6b6573;
+  --grey: #6a6a6a;
+}
+
+body.light .sun {
+  display: none;
+}
+
+body:not(.light) .moon {
+  display: none;
+}
+
+body {
+  color: var(--text);
+  background-color: var(--bg);
+}
+
+.center-content {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100% - 40px);
+}
