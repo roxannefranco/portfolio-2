@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import About from "../components/About";
 import { darkModeAtom } from "../config/theme";
 import { useAtom } from "jotai";
 
@@ -8,6 +9,7 @@ function Home() {
   return (
     <main className={darkMode ? "dark" : "light"}>
       <Navbar />
+      <About />
     </main>
   );
 }
