@@ -22,7 +22,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body.light {
+main.light {
   --section-bg: #efebf3;
   --lilac: #b082de;
   --bg: white;
@@ -31,17 +31,10 @@ body.light {
   --grey: #6a6a6a;
 }
 
-body.light .sun {
-  display: none;
-}
-
-body:not(.light) .moon {
-  display: none;
-}
-
-body {
+main {
   color: var(--text);
   background-color: var(--bg);
+  min-height: 100vh;
 }
 
 .center-content {

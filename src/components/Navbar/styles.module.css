@@ -10,6 +10,11 @@
   border-bottom: 1px solid var(--section-bg);
 }
 
+.navbar nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   display: inline-block;
   max-height: 25px;
@@ -25,4 +30,89 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.switchBtn,
+.hamburguer,
+.close {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.close {
+  display: inline-block;
+}
+
+.close svg path {
+  stroke: var(--text);
+}
+
+.hamburguer {
+  margin-left: 10px;
+}
+
+.switchBtn:hover,
+.hamburguer:hover,
+.close:hover {
+  opacity: 0.5;
+}
+
+.hiddenMenu {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: none;
+  z-index: 1;
+  position: fixed;
+  background: white;
+  background-color: var(--section-bg);
+  color: var(--textfont);
+  opacity: 0.98;
+}
+
+.hiddenMenu ul {
+  font-size: 40px;
+  font-family: var(--textfont);
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.hiddenMenu li {
+  padding-top: 20px;
+}
+
+.hiddenMenu a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: var(--text);
+  cursor: pointer;
+  height: 74px;
+}
+
+.hiddenMenu a:hover {
+  font-family: var(--hoverfont);
+  color: var(--lilac);
+  text-transform: none;
+}
+
+.close {
+  margin-left: auto;
+  padding-right: 10px;
+  padding-top: 10px;
+  position: fixed;
+  top: 5px;
+  right: 30px;
+}
+
+.backgroundDay {
+  background-color: var(--section-bg);
+  padding-top: 30px;
 }
