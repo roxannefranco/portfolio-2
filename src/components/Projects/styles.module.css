@@ -1,9 +1,3 @@
-.introTitle {
-  font-family: var(--titlefont);
-  font-size: 40px;
-  padding-bottom: 30px;
-}
-
 .projectsIntro {
   background-color: var(--bg);
   text-align: center;

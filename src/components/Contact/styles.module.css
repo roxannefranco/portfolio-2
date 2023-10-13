@@ -1,0 +1,30 @@
+.top {
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: topAnimation 1s ease-in-out infinite;
+  animation-delay: 150ms;
+}
+
+.bottom {
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: topAnimation 1s ease-in-out infinite;
+}
+
+.contactsSection {
+  background-color: var(--section-bg);
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.contactText {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.buttonsContact {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

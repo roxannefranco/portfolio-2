@@ -7,7 +7,7 @@ function About() {
       <h1>
         <span>Hi!</span> I’m Roxanne.
       </h1>
-      <h2 className={styles.introTitle}>A Front-End Development graduate.</h2>
+      <h2 className="introTitle">A Front-End Development graduate.</h2>
       <img
         className={styles.profilePic}
         src="images/profilepic.jpg"

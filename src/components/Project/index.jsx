@@ -11,19 +11,11 @@ function Project(props) {
           {project.name}
         </h2>
         <p className="text">{project.description}</p>
-        <div className={styles.buttons}>
-          <a
-            className={classNames(styles.cta, styles.icon)}
-            href={project.link}
-            target="_blank"
-          >
+        <div className="buttons">
+          <a className="cta icon" href={project.link} target="_blank">
             live website
           </a>
-          <a
-            className={classNames(styles.cta, styles.icon)}
-            href={project.github}
-            target="_blank"
-          >
+          <a className="cta icon" href={project.github} target="_blank">
             <svg
               width="19"
               height="19"

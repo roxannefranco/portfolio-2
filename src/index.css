@@ -57,3 +57,46 @@ main {
   font-size: 14px;
   color: var(--textcolor);
 }
+
+.cta {
+  font-family: var(--textfont);
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border: solid 1px var(--lilac);
+  background-color: var(--lilac);
+  color: white;
+  cursor: pointer;
+}
+
+.icon {
+  padding: 0 7px;
+  margin-left: 5px;
+}
+
+.cta:hover {
+  border: solid 1px --lilac;
+  background-color: var(--bg);
+  color: var(--lilac);
+}
+
+.cta:hover svg path {
+  fill: var(--lilac);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.introTitle {
+  font-family: var(--titlefont);
+  font-size: 40px;
+  padding-bottom: 30px;
+}

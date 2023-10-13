@@ -7,7 +7,7 @@ function Projects() {
   return (
     <div>
       <div className={styles.projectsIntro}>
-        <h2 className={styles.introTitle}>My Projects</h2>
+        <h2 className="introTitle">My Projects</h2>
         <p className="text">
           As a student at Noroff School of Technology and Digital Media, I was
           often challenged to create entire project simulations as assignments.
