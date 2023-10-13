@@ -1,0 +1,9 @@
+.footer p {
+  padding: 20px;
+  text-align: center;
+  color: var(--text);
+}
+
+.footer span {
+  color: var(--lilac);
+}
