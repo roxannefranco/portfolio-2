@@ -36,3 +36,12 @@
 .projectText p {
   margin-right: 60px;
 }
+
+@media only screen and (max-width: 902px) {
+  .singleProject {
+    flex-direction: column-reverse;
+  }
+  .projectText {
+    flex: 0;
+  }
+}

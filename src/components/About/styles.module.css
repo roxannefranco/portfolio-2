@@ -39,3 +39,9 @@ svg .bottom {
   transform: translateY(-10px);
   animation: topAnimation 1s ease-in-out infinite;
 }
+
+@media only screen and (max-width: 1050px) {
+  .welcomeText h1 {
+    font-size: 40px;
+  }
+}
