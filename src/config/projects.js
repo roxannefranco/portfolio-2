@@ -14,7 +14,7 @@ export const projects = [
     description:
       "An Ecom store using the school's API. Mallmart is an online platform where the user can easily visualize products, their ratings and reviews as well as the ones on discount and be able to fullfill a purchase with a smooth user experience. Developed for my JavaScript Frameworks course assignment as a second year student of Front-end Development at Noroff, this project was my first ever project using React.",
     image:
-      "https://user-images.githubusercontent.com/50967213/274665014-36eb0845-47da-4890-b443-c5e37af246bd.png",
+      "https://user-images.githubusercontent.com/50967213/274989249-928fc36a-30c7-4969-9dff-5e6040e13616.png",
     link: "https://mallmart-store.netlify.app/",
     github: "https://github.com/roxannefranco/mallmart",
     id: "2",
@@ -24,7 +24,7 @@ export const projects = [
     description:
       "An Auction Platform for listing and bidding of gaming related items such as games, consoles, gaming accessories and much more! Developed as my Semester Project 2 as a second year student of Front-end Development at Noroff.",
     image:
-      "https://user-images.githubusercontent.com/50967213/222969394-487ed025-26d5-4984-ba27-0974424fe64b.png",
+      "https://user-images.githubusercontent.com/50967213/274993582-029ddde2-1477-4224-bfa3-5a157e52f069.png",
     link: "https://gamernaut.netlify.app/",
     github: "https://github.com/roxannefranco/gamernaut",
     id: "3",

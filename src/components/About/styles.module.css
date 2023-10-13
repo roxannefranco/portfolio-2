@@ -27,14 +27,6 @@ h1 span {
   font-size: 50px;
 }
 
-.text {
-  font-family: var(--textfont);
-  font-weight: 300;
-  line-height: 22px;
-  font-size: 14px;
-  color: var(--textcolor);
-}
-
 .introTitle {
   font-family: var(--titlefont);
   font-size: 40px;

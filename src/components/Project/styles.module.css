@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+.introTitle {
+  font-family: var(--titlefont);
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.projectsIntro {
+  background-color: var(--bg);
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.projectsContainer {
+  background-color: var(--bg);
+}
+
+.singleProject {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.singleProject img {
+  max-width: 453px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.projectText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.projectText p {
+  margin-right: 60px;
+}
+
+.cta {
+  font-family: var(--textfont);
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border: solid 1px var(--lilac);
+  background-color: var(--lilac);
+  color: white;
+  cursor: pointer;
+}
+
+.icon {
+  padding: 0 7px;
+  margin-left: 5px;
+}
+
+.cta:hover {
+  border: solid 1px --lilac;
+  background-color: var(--bg);
+  color: var(--lilac);
+}
+
+.cta:hover svg path {
+  fill: var(--lilac);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}

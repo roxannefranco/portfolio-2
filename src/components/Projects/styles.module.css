@@ -1,0 +1,18 @@
+.introTitle {
+  font-family: var(--titlefont);
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.projectsIntro {
+  background-color: var(--bg);
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.projectsContainer {
+  background-color: var(--bg);
+}

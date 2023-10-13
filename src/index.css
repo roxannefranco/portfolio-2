@@ -43,3 +43,17 @@ main {
   margin-right: auto;
   width: calc(100% - 40px);
 }
+
+.mainTitle {
+  font-family: var(--titlefont);
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.text {
+  font-family: var(--textfont);
+  font-weight: 300;
+  line-height: 22px;
+  font-size: 14px;
+  color: var(--textcolor);
+}
