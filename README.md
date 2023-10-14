@@ -1,6 +1,6 @@
 # My Personal Portfolio :sparkles:
 
-My personal Portfolio listing my main projects from my final year at Noroff School of Tech and digital Media. (*updated*)
+My personal Portfolio listing my main projects from my final year at Noroff School of Tech and digital Media. (*updated Oct 2023*)
 
 ![homepageportfolio](https://user-images.githubusercontent.com/50967213/195955931-f73b38d5-88c4-405d-ad62-574017c82bd7.jpg)
 
