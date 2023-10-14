@@ -216,13 +216,19 @@ function Navbar() {
             </button>
             <ul>
               <li>
-                <a href="#">About</a>
+                <a href="#about" onClick={closeMenu}>
+                  About
+                </a>
               </li>
               <li>
-                <a href="#">Projects</a>
+                <a href="#projects" onClick={closeMenu}>
+                  Projects
+                </a>
               </li>
               <li>
-                <a href="#">Contacts</a>
+                <a href="#contact" onClick={closeMenu}>
+                  Contacts
+                </a>
               </li>
             </ul>
           </div>

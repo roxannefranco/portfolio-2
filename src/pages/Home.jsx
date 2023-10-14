@@ -12,9 +12,15 @@ function Home() {
   return (
     <main className={darkMode ? "dark" : "light"}>
       <Navbar />
-      <About />
-      <Projects />
-      <Contact />
+      <div id="about">
+        <About />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
       <Footer />
     </main>
   );
